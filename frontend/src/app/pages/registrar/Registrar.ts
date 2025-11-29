@@ -37,9 +37,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatDatepickerModule,
     MatFormFieldModule
   ],
-  templateUrl: './registrar.html',
+  templateUrl: './Registrar.html',
   providers: [provideNativeDateAdapter()],
-  styleUrls: ['./registrar.css'],
+  styleUrls: ['./Registrar.css'],
 })
 export class Registrar implements OnInit, AfterViewInit {
   @ViewChild('stepper') stepper!: MatStepper;
